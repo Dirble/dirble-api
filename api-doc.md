@@ -1,5 +1,5 @@
 # API v2
-This is the first draft of the new API on Dirble.
+This is the second draft of the new API on Dirble.
 See `:version` as v2 in the url.
 
 
@@ -92,5 +92,5 @@ See `:version` as v2 in the url.
 
 
 ## Revisions
-19 march 2015: Fixed last fixes for release.
-28 february 2015: Released the first draft of API v2.
+* 19 march 2015: Fixed last fixes for release.
+* 28 february 2015: Released the first draft of API v2.
