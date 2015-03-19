@@ -16,9 +16,6 @@ See `:version` as v2 in the url.
 
  - offset : Pad a number of results.
 
- - token (required) : Apikey/token
-
-
 
 #### GET /:version/station/:id
 
@@ -28,8 +25,6 @@ See `:version` as v2 in the url.
 
 
  - id (required) : Station id.
-
- - token (required) : Apikey/token
 
 
 
@@ -97,4 +92,5 @@ See `:version` as v2 in the url.
 
 
 ## Revisions
+19 march 2015: Fixed last fixes for release.
 28 february 2015: Released the first draft of API v2.
