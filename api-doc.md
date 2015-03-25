@@ -48,8 +48,12 @@ See `:version` as v2 in the url.
 #### GET /:version/categories/primary
 
  Return head categories, also known as Primaries.
+ 
 
+#### GET /:version/categories/tree
 
+ Get all categories as a tree.
+ 
 
 #### GET /:version/category/:id/stations
 
