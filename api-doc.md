@@ -82,6 +82,45 @@ See `:version` as v2 in the url.
  - id (required) : Primary category id.
 
 
+#### GET /:version/countries
+
+ Return a list of countries
+
+
+
+#### GET /:version/continents
+
+ Return a list of Continents
+
+
+
+#### GET /:version/continents/:continent/countries
+
+ Get child countries for continent
+
+**Parameters:** 
+
+
+ - continent (required) : Continent id.
+
+
+
+#### GET /:version/country/:id/stations
+
+ Get stations for a country
+
+**Parameters:** 
+
+
+ - id (required) : Country id.
+
+ - page : Page offset to fetch.
+
+ - per_page : Number of results to return per page.
+
+ - offset : Pad a number of results.
+
+
 
 #### GET /:version/search/:query
 
@@ -91,8 +130,6 @@ See `:version` as v2 in the url.
 
 
  - query (required) : Search query.
-
- - token (required) : Apikey/token
 
 
 ## Revisions
